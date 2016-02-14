@@ -13,6 +13,7 @@
     "html5-boilerplate": "~5.2.0",
     "bower": "*",
     "install": "^1.0.4",
-    "angular-repeat-n": "^0.1.5"
+    "angular-repeat-n": "^0.1.5",
+    "bootstrap": "^3.3.6"
   }
 }
