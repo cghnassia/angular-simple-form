@@ -1,0 +1,40 @@
+.review-items {
+  .review-item {
+      margin: 5px;
+      background-color: #eee;
+
+    .review-star {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    .review-star-full {
+      @extend .review-star;
+      background-image: url("img/star_full.png");
+    }
+
+    .review-star-empty {
+      @extend .review-star;
+      background-image: url("img/star_empty.png");
+    }
+  }
+
+  .review-add {
+    margin-top: 30px;
+  }
+}
+
+
+.review-form {
+  .form-group .ng-dirty.ng-valid[required] {
+    border-left: 5px solid #42A948; /* green */
+  }
+
+  .form-group .ng-dirty.ng-invalid {
+    border-left: 5px solid #a94442; /* red */
+  }
+}
