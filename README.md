@@ -20,22 +20,7 @@ us manage and test the application.
 
 * We get the tools we depend upon via `npm`, the [node package manager][npm].
 * We get the angular code via `bower`, a [client-side code package manager][bower].
-* gulp is part of the toolchain for sass compilation, see gulp
-
-You need first get npm installed:
-```
-node install -g npm
-```
-
-You also need bower :
-```
-node install -g bower
-```
-
-Gulp is required for sass compilation :
-```
-node install -g gulp
-```
+* `gulp` is part of the toolchain for sass compilation
 
 We have preconfigured `npm` to automatically run `bower` so we can simply do:
 
